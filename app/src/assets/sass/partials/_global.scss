@@ -526,6 +526,10 @@ input {
 }
 
 @media screen and (max-width: 700px) { 
+	.row {
+		margin: 0;
+	}
+
 	.header {
 		position: relative;
 		z-index: 10;
@@ -534,6 +538,9 @@ input {
 			overflow-y: none;
 
 			.header__nav {
+				width: 25px;
+				padding: 20px 0;
+
 				.header__menu-xs {
 					display: block;
 					width: 25px;
@@ -613,11 +620,16 @@ input {
 				}
 			}
 			.header__logo {
+				width: calc(100% - 50px);
 				margin-top: 5px;
 
 				a {
 					font-size: 35px;
 				}
+			}
+			.header__car {
+				width: 25px;
+				padding: 0;
 			}
 		}
 	}
@@ -638,9 +650,6 @@ input {
 @media screen and (max-width: 480px) { 
 	.header {
 		.header__container {
-			.header__nav {
-				width: 30%;
-			}
 			.header__logo {
 				margin-top: 12px;
 				

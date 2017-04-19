@@ -81,6 +81,17 @@
 	.products {
 		.products_item  {
 			width: 100%;
+			max-width: 360px;
+			float: none;
+			margin: auto auto 30px;
+		}
+	}
+}
+
+@media screen and (max-width: 320px) { 
+	.products {
+		.products_item  {
+			max-width: 320px;
 		}
 	}
 }
