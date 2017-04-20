@@ -554,7 +554,7 @@ input {
     z-index: 5; }
 
   #main {
-    margin-top: 60px; } }
+    margin-top: 30px; } }
 @media screen and (max-width: 480px) {
   .header .header__container .header__logo {
     margin-top: 12px; }
