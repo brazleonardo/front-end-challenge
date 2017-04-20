@@ -22,7 +22,7 @@
 			.info {
 				@extend .transition-default-geral;
 				width: 101%;
-				height: 50px;
+				min-height: 50px;
 				position: absolute;
 				left: -2px;
 				bottom: -2px;

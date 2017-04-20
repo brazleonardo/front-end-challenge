@@ -589,7 +589,7 @@ input {
         height: auto; }
       .products .products_item a .info {
         width: 101%;
-        height: 50px;
+        min-height: 50px;
         position: absolute;
         left: -2px;
         bottom: -2px;
