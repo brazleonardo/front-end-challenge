@@ -530,9 +530,19 @@ input {
 		margin: 0;
 	}
 
+	.menu__mobile--active {
+		header {
+			position: fixed;
+		}
+		
+		#main {
+			margin-top: 90px;
+		}
+	}
+
 	.header {
 		position: relative;
-		z-index: 10;
+		z-index: 15;
 
 		.header__container {
 			overflow-y: none;
@@ -640,7 +650,7 @@ input {
 		top: 60px;
 		left: 0;
 		background-color: rgba(0, 0, 0, 0.70);
-		z-index: 5;
+		z-index: 10;
 	}
 	#main {
 		margin-top: 30px;

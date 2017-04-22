@@ -103,13 +103,16 @@
 		});
 
 		$rootScope.classMenuMob = '';
+		$rootScope.classHeaderFixed = '';
 
 		$rootScope.menuMob = function(){
 			if($rootScope.classMenuMob == ''){
 				$rootScope.classMenuMob = ' active';
+				$rootScope.classHeaderFixed = ' menu__mobile--active';
 			}
 			else {
 				$rootScope.classMenuMob = '';
+				$rootScope.classHeaderFixed = '';
 			}
 		}
 
