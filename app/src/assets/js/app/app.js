@@ -85,6 +85,7 @@
 
 			$rootScope.title = 'Conectando...';
 			$rootScope.classMenuMob = '';
+			$rootScope.classHeaderFixed = '';
 			$rootScope.loaded = true;
 			$rootScope.hasItemCar = false;
 			$rootScope.totalItemCar = 0;
